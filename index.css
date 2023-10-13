@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+}
+.title{
+  padding: 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.list ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.list ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border-bottom: 1px solid black;
+  width: 15%;
+  height: 100px;
+  padding: 5px;
+}
+.list ul li p{
+  overflow: auto;
+  padding: 5px;
+  max-height: 90px;
+}
+.list ul li div{
+  display: flex;
+  gap: 5px;
+}
+
+#submit, #save, #retrieve{
+  cursor: pointer;
+}
+.btnDone{
+  background-color: lightgreen;
+}
+.btnClear{
+  background-color: red;
+}
+button{
+  padding: 5px;
+  cursor: pointer;
+}
